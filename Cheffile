@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'etudev-rails-server', :git => "https://github.com/eturino/etudev-rails-server"
+cookbook 'ruby_build'
+cookbook "rbenv", :git => 'git://github.com/fnichol/chef-rbenv.git'
+#cookbook 'etudev-rails-server', :path => "/Users/eturino/developer/projects/etudev/etudev_environment/etudev-rails-server/"
+
