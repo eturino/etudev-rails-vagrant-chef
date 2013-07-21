@@ -71,10 +71,6 @@ Vagrant.configure("2") do |config|
     chef.cookbooks_path = ["chef/cookbooks", "chef/site-cookbooks"]
     chef.roles_path = "chef/roles"
     chef.data_bags_path = "chef/data_bags"
-    #chef.add_recipe "ruby_build"
-    #chef.add_recipe "rbenv"
-    #chef.add_recipe "rbenv::vagrant"
-    #chef.add_recipe "etudev-rails-server::vagrant"
     chef.add_role "vagrant_server"
     chef.add_role "rails_server"
 

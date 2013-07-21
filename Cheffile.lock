@@ -71,9 +71,9 @@ GIT
 GIT
   remote: https://github.com/eturino/etudev-rails-server
   ref: master
-  sha: 29599794100f98e1230e02522cb6d07ff08e91e3
+  sha: 0b753d9bf79766dd30f120464972d062041fa698
   specs:
-    etudev-rails-server (0.1.2)
+    etudev-rails-server (0.1.5)
       apt (>= 0.0.0)
       curl (>= 0.0.0)
       databox (>= 0.0.0)
